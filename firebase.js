@@ -6,3 +6,5 @@ const config = {
 	databaseURL: 'https://moody-d6aaa.firebaseio.com'
 }
 firebase.initializeApp(config)
+const database = fire.database()
+export default database
